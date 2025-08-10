@@ -1,14 +1,10 @@
 #pragma once
 
-#include <stdio.h>
+// For use by Hazel applications
 
-//for use by hazel applications
 #include "Hazel/Application.h"
+#include "Hazel/Log.h"
 
-
-//entry point 
+// ---Entry Point---------------------
 #include "Hazel/EntryPoint.h"
-
-
-
-
+// -----------------------------------
