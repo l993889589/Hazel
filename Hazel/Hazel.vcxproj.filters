@@ -1,54 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Hazel">
-      <UniqueIdentifier>{99294D0D-053E-75BE-CEBF-181E3A9371EF}</UniqueIdentifier>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Hazel\src">
-      <UniqueIdentifier>{300CA6DC-9C76-5A53-E5B4-0BF9515E38A8}</UniqueIdentifier>
+    <Filter Include="src\Hazel">
+      <UniqueIdentifier>{F0370AB3-5CA2-BE29-A5E0-6FCF118A9C7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Hazel\Events">
+      <UniqueIdentifier>{D495B311-C08E-D263-E9C0-B7E8D518B26F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\GLAD">
+      <UniqueIdentifier>{1A7667C1-862B-E0B6-0F20-DA8D7BD4D6BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\GLAD\src">
+      <UniqueIdentifier>{31B12476-9D3C-923A-A64D-152F1258EE3A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Hazel.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Application.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Core.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\EntryPoint.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Events\ApplicationEvent.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Events\Event.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Events\KeyEvent.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Events\MouseEvent.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Hazel\Log.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGuiLayer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Layer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LayerStack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WindowsWindow.h">
+      <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h">
-      <Filter>Hazel\src</Filter>
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imGuiOpenGLRenderer.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel</Filter>
     </ClCompile>
     <ClCompile Include="src\Hazel\Log.cpp">
-      <Filter>Hazel\src</Filter>
+      <Filter>src\Hazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGuiLayer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Layer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LayerStack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowsWindow.cpp">
+      <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="src\hzpch.cpp">
-      <Filter>Hazel\src</Filter>
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imGuiOpenGLRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\GLAD\src\glad.c">
+      <Filter>vendor\GLAD\src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
